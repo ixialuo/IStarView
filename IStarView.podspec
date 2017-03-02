@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "IStarView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "IStarView for iOS swift"
   s.homepage     = "https://github.com/ixialuo/IStarView"
   s.license      = { :type => "MIT", :file => "LICENSE" }

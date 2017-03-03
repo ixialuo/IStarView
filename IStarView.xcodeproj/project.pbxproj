@@ -12,7 +12,6 @@
 		CEE411B11E66D34400CCD76A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE411AF1E66D34400CCD76A /* Main.storyboard */; };
 		CEE411B31E66D34400CCD76A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE411B21E66D34400CCD76A /* Assets.xcassets */; };
 		CEE411B61E66D34400CCD76A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE411B41E66D34400CCD76A /* LaunchScreen.storyboard */; };
-		CEE411C01E66D39900CCD76A /* ISingleStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE411BE1E66D39900CCD76A /* ISingleStarView.swift */; };
 		CEE411C11E66D39900CCD76A /* IStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE411BF1E66D39900CCD76A /* IStarView.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		CEE411B21E66D34400CCD76A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE411B51E66D34400CCD76A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE411B71E66D34400CCD76A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEE411BE1E66D39900CCD76A /* ISingleStarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISingleStarView.swift; sourceTree = "<group>"; };
 		CEE411BF1E66D39900CCD76A /* IStarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IStarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +70,6 @@
 		CEE411BD1E66D39900CCD76A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				CEE411BE1E66D39900CCD76A /* ISingleStarView.swift */,
 				CEE411BF1E66D39900CCD76A /* IStarView.swift */,
 			);
 			path = Sources;
@@ -152,7 +149,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE411C11E66D39900CCD76A /* IStarView.swift in Sources */,
-				CEE411C01E66D39900CCD76A /* ISingleStarView.swift in Sources */,
 				CEE411AE1E66D34400CCD76A /* ViewController.swift in Sources */,
 				CEE411AC1E66D34400CCD76A /* AppDelegate.swift in Sources */,
 			);
@@ -318,6 +314,7 @@
 				CEE411BC1E66D34400CCD76A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

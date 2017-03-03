@@ -14,10 +14,8 @@ class ViewController: UIViewController, IStarViewDelegate {
         super.viewDidLoad()
        
         let starView = IStarView(frame: CGRect(x: 0, y: 0, width: 100, height: 80))
-        starView.value = 0.99
+        starView.value = 0.8
         starView.center = view.center
-        starView.delegate = self
-        starView.isEvaluated = true
         starView.fillLightedColor = UIColor.red
         starView.fillDefaultColor = UIColor.blue
         view.addSubview(starView)

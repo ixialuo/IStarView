@@ -8,8 +8,9 @@
 
 #快速集成
 IStarView支持使用Cocoapods集成，请在Podfile中添加以下语句：
+```ruby
 pod 'IStarView', '~> 0.0.3'
-
+```
 #使用实例
 let starView = IStarView(frame: CGRect(x: 0, y: 0, width: 100, height: 80))
 starView.value = 0.8

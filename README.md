@@ -1,8 +1,6 @@
 #ReadMe
-**邮箱：ixialuo@126.com**
-
+*邮箱：ixialuo@126.com*
 **QQ：2256472253**
-
 关于Bug反馈、以及好的建议，请大家提交到 Github 上，我会尽快解决。
 
 

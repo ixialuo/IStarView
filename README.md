@@ -1,6 +1,6 @@
 #ReadMe
 **邮箱：ixialuo@126.com**<br>
-**QQ：2256472253**
+**QQ：2256472253**<br>
 关于Bug反馈、以及好的建议，请大家提交到 Github 上，我会尽快解决。
 
 
@@ -13,9 +13,9 @@ IStarView支持使用Cocoapods集成，请在Podfile中添加以下语句：
 pod 'IStarView', '~> 0.0.3'
 ```
 #使用实例
-let starView = IStarView(frame: CGRect(x: 0, y: 0, width: 100, height: 80))
-starView.value = 0.8
-starView.center = view.center
-starView.fillLightedColor = UIColor.red
-starView.fillDefaultColor = UIColor.blue
+let starView = IStarView(frame: CGRect(x: 0, y: 0, width: 100, height: 80))<br>
+starView.value = 0.8<br>
+starView.center = view.center<br>
+starView.fillLightedColor = UIColor.red<br>
+starView.fillDefaultColor = UIColor.blue<br>
 view.addSubview(starView)
